@@ -91,16 +91,21 @@
   border-radius: 10px;
   color: floralwhite;
 }
-
 .card-body .project-btn{
   margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .card-body .card-title {
   text-align: center;
 }
+.project-cards {
+  background-color: rgba( 0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+/* Skill Section Styling */
 
 
+/* Footer Section Styling */
