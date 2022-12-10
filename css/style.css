@@ -1,6 +1,12 @@
 /* Custom Section Heading */
 .heading-left {
   text-align: left;
+  background-color: #212529;
+  color: floralwhite;
+  width: 50%;
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 5px;
 }
 .heading-center {
   text-align: center;
@@ -15,7 +21,7 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 8px;
-  border-radius: 30px;
+  border-radius: 18px;
 }
 .heading-right {
   text-align: right;
@@ -65,14 +71,14 @@
 .about-contact-card {
   border: 0;
 }
-.card-body a {
+.card-body .contact {
   text-decoration: none;
   color:#212529;
   font-size: 18px;
   transition: 0.5s;
   cursor: pointer;
 }
-.card-body a:hover {
+.card-body .contact:hover {
   color: #eb5e28;
 }
 .card-body i {
@@ -85,3 +91,16 @@
   border-radius: 10px;
   color: floralwhite;
 }
+
+.card-body .project-btn{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-body .card-title {
+  text-align: center;
+}
+
+
