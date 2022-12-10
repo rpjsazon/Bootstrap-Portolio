@@ -1,20 +1,13 @@
-/* Container Style */
-.container {
-  margin-top: 30px;
-}
-
 /* Custom Section Heading */
 .heading-left {
   text-align: left;
-  margin: 30px 0;
 }
 .heading-center {
   text-align: center;
-  margin: 30px 0;
+  padding: 30px 0;
 }
 .heading-right {
   text-align: right;
-  margin: 30px 0;
 }
 
 /* Navbar */
@@ -61,7 +54,6 @@
 .about-contact-card {
   border: 0;
 }
-
 .card-body a {
   text-decoration: none;
   color:#212529;
@@ -69,10 +61,12 @@
   transition: 0.5s;
   cursor: pointer;
 }
-
 .card-body a:hover {
   color: #eb5e28;
 }
 .card-body i {
   font-size: 18px;
 }
+
+/* Projects Section Styling */
+
