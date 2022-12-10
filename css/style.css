@@ -3,11 +3,6 @@
   margin-top: 30px;
 }
 
-/* Navbar */
-.navbar a i {
-  color: #eb5e28;
-}
-
 /* Custom Section Heading */
 .heading-left {
   text-align: left;
@@ -20,6 +15,46 @@
 .heading-right {
   text-align: right;
   margin: 30px 0;
+}
+
+/* Navbar */
+.navbar a i {
+  color: #eb5e28;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-weight: bold;
+  transition: 0.5s;
+  margin-right: 40px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #eb5e28;
+}
+
+/* Jumbotron ID Hero | Reference from previous rockback style for jumbotron.*/
+.jumbotron {
+  background-image: url(../images/drone-operator.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.jumbotron-content {
+  width: 70%;
+  color:aliceblue;
+}
+
+.jumbotron-content p {
+  font-weight: 400;
+}
+
+.jumbotron-content span {
+  color: #eb5e28;
+  font-weight: 400;
 }
 
 /* About and Contact Section*/
