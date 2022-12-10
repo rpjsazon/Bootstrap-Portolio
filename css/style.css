@@ -110,6 +110,14 @@
 }
 
 /* Skill Section Styling */
+.skill-img {
+  height: 100px;
+}
+.skill-body {
+  padding: 15px;
+  border-radius: 15px;
+  border: solid 5px;
+}
 
 
 /* Footer Section Styling */
