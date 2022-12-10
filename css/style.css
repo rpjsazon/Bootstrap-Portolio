@@ -136,14 +136,18 @@
   text-decoration: none;
 }
 .footer-link {
+  padding: 5px;
   text-decoration: none;
   color:#eb5e28;
   opacity: 0.8;
   transition: 0.5s;
+  box-shadow: 5px 5px 5px rgba( 0, 0, 0, 1);
 }
 .footer-link:hover {
   color:#eb5e28;
   opacity: 1;
+  box-shadow: 0 0;
+  text-decoration: none;
 }
 
 
