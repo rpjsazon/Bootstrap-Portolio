@@ -105,6 +105,16 @@
   margin-bottom: 30px;
 }
 
+/* Carousel Transition Blurred */
+.carousel-item img {
+  filter: blur(20px);
+  transition: 0.5s;
+}
+
+.carousel-item img:hover {
+  filter: blur(0);
+}
+
 /* Skill Section Styling */
 
 
