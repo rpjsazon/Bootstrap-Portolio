@@ -31,19 +31,17 @@
 .navbar a i {
   color: #eb5e28;
 }
-
 .navbar-nav .nav-item .nav-link {
   font-weight: bold;
   transition: 0.5s;
   margin-right: 40px;
 }
-
 .navbar-nav .nav-item .nav-link:hover {
   color: #eb5e28;
 }
 
 /* Jumbotron ID Hero | Reference from previous rockback style for jumbotron.*/
-.jumbotron {
+#hero {
   background-image: url(../images/drone-operator.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -52,16 +50,13 @@
   align-items: center;
   justify-content: flex-start;
 }
-
 .jumbotron-content {
   width: 70%;
   color: floralwhite;
 }
-
 .jumbotron-content p {
   font-weight: 400;
 }
-
 .jumbotron-content span {
   color: #eb5e28;
   font-weight: 400;
@@ -97,7 +92,7 @@
   align-items: center;
   justify-content: center;
 }
-.card-body .card-title {
+.card-body .project-title {
   text-align: center;
 }
 .project-cards {
@@ -110,7 +105,6 @@
   filter: blur(20px);
   transition: 0.5s;
 }
-
 .carousel-item img:hover {
   filter: blur(0);
 }
@@ -119,3 +113,28 @@
 
 
 /* Footer Section Styling */
+.jumbotron-fluid {
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 0;
+  /* For future modification */
+  /*background-color: rgba(33, 37, 41, 0.7);*/
+}
+.footer-body {
+  border: 0;
+}
+.card-subtitle {
+  text-decoration: none;
+}
+.footer-link {
+  text-decoration: none;
+  color:#eb5e28;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.footer-link:hover {
+  color:#eb5e28;
+  opacity: 1;
+}
+
+
